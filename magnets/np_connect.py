@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import requests
 
 # store all HTTP status codes in a dict
