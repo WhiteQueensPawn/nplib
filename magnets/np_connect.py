@@ -21,10 +21,13 @@ status_codes = {100: "Continue", 101: "Switching Protocols",
 host = 'https://api.github.com/user'
 cred = ('WhiteQueensPawn', 'player(1).hp=100')
 
+# output host to the console
 print "[+] Host: " + host
 
+# connect to host and get a response
 r = requests.get(host, auth=cred)
 
+# output response info to  the console
 print "[+] Status code: " + str(r.status_code) + " " + status_codes[r.status_code]
 print "[+] Content type: " + str(r.headers['content-type'])
 print "[+] Encoding: " + str(r.encoding)
