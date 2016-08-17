@@ -1,7 +1,7 @@
 import requests
 
-status_codes = {
-                100: "Continue", 101: "Switching Protocols",
+# store all HTTP status codes in a dict
+status_codes = {100: "Continue", 101: "Switching Protocols",
                 200: "OK", 201: "Created", 202: "Accepted", 203: "Non-Authoritative Information",
                 204: "No Content", 205: "Reset Content", 206: "Partial Content",
                 300: "Multiple Choices", 301: "Moved Permanently", 302: "Found",
@@ -15,9 +15,9 @@ status_codes = {
                 415: "Unsupported Media Type", 416: "Requested Range Not Satisfiable",
                 417: "Expectation Failed",
                 500: "Internal Server Error", 501: "Not Implemented", 502: "Bad Gateway",
-                503: "Service Unavailable", 504: "Gateway Timeout", 505: "HTTP Version Not Supported"
-}
+                503: "Service Unavailable", 504: "Gateway Timeout", 505: "HTTP Version Not Supported"}
 
+# store host and credentials
 host = 'https://api.github.com/user'
 cred = ('WhiteQueensPawn', 'player(1).hp=100')
 
@@ -29,4 +29,4 @@ print "[+] Status code: " + str(r.status_code) + " " + status_codes[r.status_cod
 print "[+] Content type: " + str(r.headers['content-type'])
 print "[+] Encoding: " + str(r.encoding)
 print "[+] Text: " + str(r.text)
-print "[+] JSON: " +str(r.json())
+print "[+] JSON: " + str(r.json())
