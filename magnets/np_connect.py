@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 import requests
+import getpass
+
 
 # store all HTTP status codes in a dict
 status_codes = {100: "Continue", 101: "Switching Protocols",
@@ -20,7 +22,8 @@ status_codes = {100: "Continue", 101: "Switching Protocols",
 
 # store host and credentials
 host = 'https://api.github.com/user'
-cred = ('WhiteQueensPawn', 'player(1).hp=100')
+phrase = str(getpass._raw_input(prompt="password: "))
+cred = ('WhiteQueensPawn', phrase)
 
 # output host to the console
 print "[+] Host: " + host
