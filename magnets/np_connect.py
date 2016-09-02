@@ -37,3 +37,4 @@ print "[+] Content type: " + str(r.headers['content-type'])
 print "[+] Encoding: " + str(r.encoding)
 print "[+] Text: " + str(r.text)
 print "[+] JSON: " + str(r.json())
+print "rebase"
