@@ -22,8 +22,8 @@ status_codes = {100: "Continue", 101: "Switching Protocols",
 
 # store host and credentials
 host = 'https://api.github.com/user'
-phrase = str(getpass._raw_input(prompt="password: "))
-cred = ('WhiteQueensPawn', phrase)
+phrase = getpass._raw_input(prompt="password: ")
+cred = ('WhiteQueensPawn', str(phrase))
 
 # output host to the console
 print "[+] Host: " + host
