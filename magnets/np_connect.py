@@ -24,9 +24,9 @@ status_codes = {100: "Continue", 101: "Switching Protocols",
 
 def github_login():
     if sys.stdin.isatty():
-        print "INFO: Terminal IS a tty."
+        print "NP INFO: Terminal IS a tty."
     else:
-        print "INFO: Terminal NOT a tty."
+        print "NP INFO: Terminal is NOT a tty."
 
     # store host and credentials
     host = 'https://api.github.com/user'
