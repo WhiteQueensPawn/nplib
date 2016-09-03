@@ -20,21 +20,30 @@ status_codes = {100: "Continue", 101: "Switching Protocols",
                 500: "Internal Server Error", 501: "Not Implemented", 502: "Bad Gateway",
                 503: "Service Unavailable", 504: "Gateway Timeout", 505: "HTTP Version Not Supported"}
 
-# store host and credentials
-host = 'https://api.github.com/user'
-phrase = getpass._raw_input(prompt="password: ")
-cred = ('WhiteQueensPawn', str(phrase))
 
-# output host to the console
-print "[+] Host: " + host
+def github_login():
+    # store host and credentials
+    host = 'https://api.github.com/user'
+    phrase = getpass.getpass()
+    cred = ('WhiteQueensPawn', str(phrase))
 
-# connect to host and get a response
-r = requests.get(host, auth=cred)
+    # output host to the console
+    print "[+] Host: " + host
 
-# output response info to  the console
-print "[+] Status code: " + str(r.status_code) + " " + status_codes[r.status_code]
-print "[+] Content type: " + str(r.headers['content-type'])
-print "[+] Encoding: " + str(r.encoding)
-print "[+] Text: " + str(r.text)
-print "[+] JSON: " + str(r.json())
-print "rebase"
+    # connect to host and get a response
+    r = requests.get(host, auth=cred)
+
+    # output response info to  the console
+    print "[+] Status code: " + str(r.status_code) + " " + status_codes[r.status_code]
+    print "[+] Content type: " + str(r.headers['content-type'])
+    print "[+] Encoding: " + str(r.encoding)
+    print "[+] Text: " + str(r.text)
+    print "[+] JSON: " + str(r.json())
+
+
+def main():
+    github_login()
+
+
+if __name__ == '__main__':
+    main()
