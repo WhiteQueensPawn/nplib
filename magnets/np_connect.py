@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import requests
 import getpass
-import sys
 
 
 # store all HTTP status codes in a dict
@@ -23,15 +22,11 @@ status_codes = {100: "Continue", 101: "Switching Protocols",
 
 
 def github_login():
-    if sys.stdin.isatty():
-        print "NP INFO: Terminal IS a tty."
-    else:
-        print "NP INFO: Terminal is NOT a tty."
-
     # store host and credentials
     host = 'https://api.github.com/user'
     phrase = getpass.getpass()
     cred = ('WhiteQueensPawn', str(phrase))
+
     # connect to host and get a response
     r = requests.get(host, auth=cred)
 
