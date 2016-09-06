@@ -4,7 +4,6 @@ import socket
 
 
 def scan_connection(target_host, target_port):
-
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.connect((target_host, target_port))

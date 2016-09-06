@@ -24,8 +24,9 @@ status_codes = {100: "Continue", 101: "Switching Protocols",
 def github_login():
     # store host and credentials
     host = 'https://api.github.com/user'
+    user = 'WhiteQueensPawn'
     phrase = getpass.getpass()
-    cred = ('WhiteQueensPawn', str(phrase))
+    cred = (user, str(phrase))
 
     # connect to host and get a response
     r = requests.get(host, auth=cred)
@@ -37,6 +38,13 @@ def github_login():
     print "[+] Encoding: " + str(r.encoding)
     print "[+] Text: " + str(r.text)
     print "[+] JSON: " + str(r.json())
+
+    filename = 'response.txt'
+    chunk_size = 32
+
+    with open(filename, 'wb') as fd:
+        for chunk in r.iter_content(chunk_size):
+            fd.write(chunk)
 
 
 def main():
