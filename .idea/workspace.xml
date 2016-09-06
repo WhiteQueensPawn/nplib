@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02476477-a41e-4a39-9b65-505155191e98" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/magnets/design.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/magnets/response.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/magnets/pyglet_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/magnets/np_connect.py" afterPath="$PROJECT_DIR$/magnets/np_connect.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/magnets/port_scanner.py" afterPath="$PROJECT_DIR$/magnets/port_scanner.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <ignored path="nplib.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,19 +31,30 @@
               <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
+                <marker date="1473135515201" expanded="true" signature="1333:2090" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="port_scanner.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="port_scanner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/magnets/port_scanner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pyglet_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/magnets/pyglet_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,6 +77,7 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/magnets/np_connect.py" />
         <option value="$PROJECT_DIR$/magnets/port_scanner.py" />
+        <option value="$PROJECT_DIR$/magnets/pyglet_test.py" />
       </list>
     </option>
   </component>
@@ -164,7 +174,7 @@
       <recent name="$PROJECT_DIR$/magnets" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.port_scanner">
+  <component name="RunManager" selected="Python.pyglet_test">
     <configuration default="false" name="np_connect" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,6 +205,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="nplib" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/magnets/port_scanner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="pyglet_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/magnets" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="nplib" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/magnets/pyglet_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -333,14 +360,16 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.np_connect" />
       <item index="1" class="java.lang.String" itemvalue="Python.port_scanner" />
+      <item index="2" class="java.lang.String" itemvalue="Python.pyglet_test" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.port_scanner" />
-        <item index="1" class="java.lang.String" itemvalue="Python.np_connect" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.pyglet_test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.port_scanner" />
+        <item index="2" class="java.lang.String" itemvalue="Python.np_connect" />
       </list>
     </recent_temporary>
   </component>
@@ -484,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1473048963813</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Refactor">
+      <created>1473136935902</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1473136935902</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -496,7 +532,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41654778" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41654778" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -538,6 +574,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
+            <marker date="1473135515201" expanded="true" signature="1333:2090" ph="..." />
           </folding>
         </state>
       </provider>
@@ -558,6 +595,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
+            <marker date="1473135515201" expanded="true" signature="1333:2090" ph="..." />
           </folding>
         </state>
       </provider>
@@ -578,6 +616,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
+            <marker date="1473135515201" expanded="true" signature="1333:2090" ph="..." />
           </folding>
         </state>
       </provider>
@@ -598,6 +637,7 @@
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
+            <marker date="1473135515201" expanded="true" signature="1333:2090" ph="..." />
           </folding>
         </state>
       </provider>
@@ -618,6 +658,7 @@
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
+            <marker date="1473135515201" expanded="true" signature="1333:2090" ph="..." />
           </folding>
         </state>
       </provider>
@@ -638,6 +679,7 @@
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
+            <marker date="1473135515201" expanded="true" signature="1333:2090" ph="..." />
           </folding>
         </state>
       </provider>
@@ -658,6 +700,7 @@
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
+            <marker date="1473135515201" expanded="true" signature="1333:2090" ph="..." />
           </folding>
         </state>
       </provider>
@@ -678,6 +721,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
+            <marker date="1473135515201" expanded="true" signature="1333:2090" ph="..." />
           </folding>
         </state>
       </provider>
@@ -698,6 +742,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
+            <marker date="1473135515201" expanded="true" signature="1333:2090" ph="..." />
           </folding>
         </state>
       </provider>
@@ -708,6 +753,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
+            <marker date="1473135515201" expanded="true" signature="1333:2090" ph="..." />
           </folding>
         </state>
       </provider>
@@ -718,6 +764,7 @@
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
+            <marker date="1473135515201" expanded="true" signature="1333:2090" ph="..." />
           </folding>
         </state>
       </provider>
@@ -736,6 +783,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
+            <marker date="1473135515201" expanded="true" signature="1333:2090" ph="..." />
           </folding>
         </state>
       </provider>
@@ -761,17 +809,26 @@
           <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
+            <marker date="1473135515201" expanded="true" signature="1333:2090" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/magnets/port_scanner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magnets/pyglet_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
