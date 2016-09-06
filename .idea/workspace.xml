@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02476477-a41e-4a39-9b65-505155191e98" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/magnets/image_viewer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/magnets/np_panda.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/magnets/image_viewer.py" afterPath="$PROJECT_DIR$/magnets/image_viewer.py" />
     </list>
     <ignored path="nplib.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -556,7 +557,14 @@
       <option name="project" value="LOCAL" />
       <updated>1473139141236</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Refactor">
+      <created>1473139744252</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1473139744252</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
