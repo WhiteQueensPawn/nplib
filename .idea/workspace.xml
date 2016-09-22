@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02476477-a41e-4a39-9b65-505155191e98" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/magnets/gl_test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/magnets/np_csv.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/magnets/obj_loader.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/magnets/obj_test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/magnets/pdf_loader.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/violent/debug/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/violent/crypt_cracker.py" afterPath="$PROJECT_DIR$/violent/debug/crypt_cracker.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/violent/dictionary.txt" afterPath="$PROJECT_DIR$/violent/debug/dictionary.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/violent/passwords.txt" afterPath="$PROJECT_DIR$/violent/debug/passwords.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/violent/port_scanner.py" afterPath="$PROJECT_DIR$/violent/debug/port_scanner.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/violent/vulnerability_scanner.py" afterPath="$PROJECT_DIR$/violent/debug/vulnerability_scanner.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/violent/vulnerable_banners.txt" afterPath="$PROJECT_DIR$/violent/debug/vulnerable_banners.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/magnets/image_viewer.py" afterPath="$PROJECT_DIR$/magnets/image_viewer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/magnets/debug/np_csv.py" afterPath="$PROJECT_DIR$/magnets/debug/np_csv.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/magnets/debug/test.csv" afterPath="$PROJECT_DIR$/magnets/debug/test.csv" />
     </list>
     <ignored path="nplib.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,10 +32,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="np_csv.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/magnets/np_csv.py">
+        <entry file="file://$PROJECT_DIR$/magnets/debug/np_csv.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/magnets/debug/test.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -64,6 +76,8 @@
         <option value="$PROJECT_DIR$/magnets/obj_loader.py" />
         <option value="$PROJECT_DIR$/magnets/npPDF.py" />
         <option value="$PROJECT_DIR$/magnets/np_csv.py" />
+        <option value="$PROJECT_DIR$/magnets/debug/test.csv" />
+        <option value="$PROJECT_DIR$/magnets/debug/np_csv.py" />
       </list>
     </option>
   </component>
@@ -127,7 +141,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="violent" />
+              <option name="myItemId" value="magnets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -144,6 +158,10 @@
               <option name="myItemId" value="magnets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="debug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -157,79 +175,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/magnets/objects" />
       <recent name="$PROJECT_DIR$/magnets" />
+      <recent name="$PROJECT_DIR$/violent/debug" />
+      <recent name="$PROJECT_DIR$/magnets/debug" />
+      <recent name="$PROJECT_DIR$/magnets/objects" />
     </key>
   </component>
   <component name="RunManager" selected="Python.np_csv">
-    <configuration default="false" name="image_viewer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/magnets" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="nplib" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/magnets/image_viewer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="gl_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/magnets" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="nplib" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/magnets/gl_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="obj_loader" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/magnets" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="nplib" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/magnets/obj_loader.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="npPDF" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/magnets" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="nplib" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/magnets/pdf_loader.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="np_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,12 +189,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/magnets" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/magnets/debug" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="nplib" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/magnets/np_csv.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/magnets/debug/np_csv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -381,20 +333,12 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.image_viewer" />
-      <item index="1" class="java.lang.String" itemvalue="Python.gl_test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.obj_loader" />
-      <item index="3" class="java.lang.String" itemvalue="Python.npPDF" />
-      <item index="4" class="java.lang.String" itemvalue="Python.np_csv" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.np_csv" />
     </list>
     <recent_temporary>
-      <list size="5">
+      <list size="1">
         <item index="0" class="java.lang.String" itemvalue="Python.np_csv" />
-        <item index="1" class="java.lang.String" itemvalue="Python.npPDF" />
-        <item index="2" class="java.lang.String" itemvalue="Python.gl_test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.obj_loader" />
-        <item index="4" class="java.lang.String" itemvalue="Python.image_viewer" />
       </list>
     </recent_temporary>
   </component>
@@ -566,7 +510,28 @@
       <option name="project" value="LOCAL" />
       <updated>1473140307669</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Refactor">
+      <created>1473991248933</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1473991248933</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Refactor">
+      <created>1473991291899</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1473991291899</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Refactor">
+      <created>1473991377401</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1473991377401</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -614,21 +579,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/magnets/port_scanner.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/port_scanner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/pyglet_test.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/pyglet_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/image_viewer.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/image_viewer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
@@ -638,35 +603,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/obj_test.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/obj_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/np_connect.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/np_connect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
           <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/port_scanner.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/port_scanner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/pyglet_test.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/pyglet_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/image_viewer.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/image_viewer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -676,28 +641,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/np_connect.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/np_connect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
           <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/port_scanner.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/port_scanner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/pyglet_test.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/pyglet_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/image_viewer.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/image_viewer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -707,28 +672,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/np_connect.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/np_connect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/port_scanner.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/port_scanner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/pyglet_test.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/pyglet_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/image_viewer.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/image_viewer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -738,133 +703,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/np_connect.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/np_connect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/port_scanner.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/port_scanner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/np_connect.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/np_connect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/port_scanner.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/port_scanner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/np_connect.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/np_connect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/port_scanner.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/port_scanner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/np_connect.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/np_connect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/port_scanner.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/port_scanner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/np_connect.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/np_connect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/port_scanner.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/port_scanner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/np_connect.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/np_connect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/port_scanner.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/port_scanner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/np_connect.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/np_connect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/port_scanner.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/port_scanner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/np_connect.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/np_connect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/port_scanner.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/port_scanner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/np_connect.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/np_connect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/np_connect.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/np_connect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/np_connect.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/np_connect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -879,7 +844,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/np_connect.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/np_connect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -901,35 +866,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/obj_test.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/obj_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/pyglet_test.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/pyglet_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/port_scanner.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/port_scanner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/np_connect.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/np_connect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/obj_loader.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/obj_loader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -937,7 +902,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/objects/cube.mtl">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/objects/cube.mtl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -945,7 +910,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/objects/cube.obj">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/objects/cube.obj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
@@ -953,7 +918,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/image_viewer.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/image_viewer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -963,7 +928,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/gl_test.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/gl_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -971,7 +936,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/pdf_loader.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/pdf_loader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -979,18 +944,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/test.csv">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/test.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="46">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnets/np_csv.py">
+    <entry file="file://$PROJECT_DIR$/magnets/debug/np_csv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
           <folding />
         </state>
       </provider>
