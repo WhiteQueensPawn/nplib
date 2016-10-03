@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import requests
 import getpass
+import json
+import csv
 
 
 # store all HTTP status codes in a dict
@@ -29,21 +31,21 @@ def github_login():
     cred = (user, str(phrase))
 
     # connect to host and get a response
-    r = requests.get(host, auth=cred)
+    response = requests.get(host, auth=cred)
 
     # output response info to  the console
     print "[+] Host: " + host
-    print "[+] Status code: " + str(r.status_code) + " " + status_codes[r.status_code]
-    print "[+] Content type: " + str(r.headers['content-type'])
-    print "[+] Encoding: " + str(r.encoding)
-    print "[+] Text: " + str(r.text)
-    print "[+] JSON: " + str(r.json())
+    print "[+] Status code: " + str(response.status_code) + " " + status_codes[response.status_code]
+    print "[+] Content type: " + str(response.headers['content-type'])
+    print "[+] Encoding: " + str(response.encoding)
+    print "[+] Text: " + str(response.text)
+    print "[+] JSON: " + str(response.json())
 
     filename = 'response.txt'
     chunk_size = 32
 
     with open(filename, 'wb') as fd:
-        for chunk in r.iter_content(chunk_size):
+        for chunk in response.iter_content(chunk_size):
             fd.write(chunk)
 
 
