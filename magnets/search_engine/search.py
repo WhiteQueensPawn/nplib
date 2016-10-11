@@ -11,15 +11,17 @@ def get_next_target(page):
     return url, end_quote
 
 
-def print_all_links(page):
+def get_all_links(page):
+    links = []
     while True:
         url, end_pos = get_next_target(page)
         if url:
-            print url
+            links.append(url)
             page = page[end_pos:]
         else:
             break
+    return links
 
-#print get_page()
+# print get_page()
 print get_next_target(html)
-print_all_links(html)
+print get_all_links(html)
