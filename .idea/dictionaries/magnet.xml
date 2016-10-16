@@ -3,6 +3,7 @@
     <words>
       <w>coords</w>
       <w>dexterum</w>
+      <w>endpos</w>
       <w>firstname</w>
       <w>github</w>
       <w>illum</w>
@@ -26,6 +27,7 @@
       <w>texcoords</w>
       <w>texid</w>
       <w>texmap</w>
+      <w>tocrawl</w>
       <w>udacity</w>
       <w>usemat</w>
       <w>usemtl</w>
